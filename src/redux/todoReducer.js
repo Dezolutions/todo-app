@@ -1,4 +1,4 @@
-const todos = JSON.parse(localStorage.getItem('todos') )
+const todos = []
 function todoReducer(state = todos, action) {
   switch (action.type) {
     case 'ADD_TODO':

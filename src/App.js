@@ -11,9 +11,9 @@ function App() {
   const [todoTask,setTodoTask] = React.useState('')
 
   //При каждом изменении массива todos, сохрянаем его в localStorage
-  React.useEffect(() => {
-    localStorage.setItem('todos', JSON.stringify(todos))
-  },[todos])
+  // React.useEffect(() => {
+  //   localStorage.setItem('todos', JSON.stringify(todos))
+  // },[todos])
 
   
   const onChangeTodoTask = event => {
